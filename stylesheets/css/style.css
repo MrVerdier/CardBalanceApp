@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  outline: none;
+}
+
+h1, h2 {
+  text-align: center;
+  padding: 20px 10px 10px 5px;
+  color: #373737;
+}
+
+body {
+  background: #eaeaea;
+  font-family: "Montserrat", sans-serif;
+}
+
+#status {
+  background: linear-gradient(0deg, #3270b2 0%, #87a7ea 100%);
+  padding: 20px 0px;
+  width: 100%;
+  border-bottom-left-radius: 100px 20px;
+  border-bottom-right-radius: 100px 20px;
+}
+#status h1, #status h2 {
+  color: #fff;
+  text-shadow: 0px 2px 6px #00000040;
+}
+#status div {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.positive-account {
+  color: #72c072;
+}
+
+.negative-account {
+  color: #eb3a3a;
+}
+
+.form-std {
+  padding: 0px 20px 10px 20px;
+  text-align: center;
+}
+.form-std input {
+  width: 100%;
+  clear: both;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.form-std button {
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(0deg, #3270b2 0%, #87a7ea 100%);
+  color: #fff;
+  border: none;
+  width: 100px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px 35%;
+}
+.form-std select {
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0 0 0;
+}
+
+table {
+  width: 100%;
+}
+table th {
+  text-align: left;
+}
+
+.transaction-table {
+  width: 100%;
+}
+.transaction-table tr {
+  background: #eeeeee;
+}
+.transaction-table tr:nth-child(2n) {
+  background: lightgray;
+}
+.transaction-table th {
+  padding: 10px;
+}
+.transaction-table th:nth-child(1) {
+  max-width: 20vw;
+  font-size: 14px;
+}
+.transaction-table th:nth-child(2) {
+  max-width: 50vw;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 300;
+}
+.transaction-table th:nth-child(3) {
+  max-width: 30vw;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=style.css.map */
